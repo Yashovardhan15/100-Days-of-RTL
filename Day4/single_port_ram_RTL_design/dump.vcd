@@ -1,0 +1,209 @@
+$date
+	Sat Mar  4 13:24:53 2023
+$end
+
+$version
+	Synopsys VCS version S-2021.09
+$end
+
+$timescale
+	1ns
+$end
+
+$comment Csum: 1 61d2aa90f4cfbaa9 $end
+
+
+$scope module single_port_ram_tb $end
+$var reg 1 ! clk $end
+$var reg 1 " rst $end
+$var reg 8 # data [7:0] $end
+$var reg 6 $ addr [5:0] $end
+$var reg 1 % enable $end
+$var reg 8 & q [7:0] $end
+$var reg 8 ' q_e [7:0] $end
+
+$scope begin unnamed$$_vcs_2 $end
+$upscope $end
+
+
+$scope begin unnamed$$_vcs_0 $end
+$upscope $end
+
+
+$scope begin unnamed$$_vcs_1 $end
+$upscope $end
+
+
+$scope module single_port_ram_inst $end
+$var reg 1 ! clk $end
+$var reg 1 " rst $end
+$var reg 8 # data [7:0] $end
+$var reg 6 $ addr [5:0] $end
+$var reg 1 % enable $end
+$var reg 8 & q [7:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+0!
+x%
+1"
+bxxxxxx $
+bxxxxxxxx #
+bxxxxxxxx &
+bxxxxxxxx '
+$end
+#1
+1!
+b00000000 &
+#2
+0!
+#3
+1!
+0"
+b00100100 #
+b000001 $
+1%
+#4
+0!
+#5
+1!
+b00001001 #
+b001101 $
+#6
+0!
+#7
+1!
+b10001101 #
+b010010 $
+#8
+0!
+#9
+1!
+b00000001 #
+b110110 $
+#10
+0!
+#11
+1!
+b00111101 #
+b001100 $
+#12
+0!
+#13
+1!
+b11111001 #
+0%
+b000001 $
+b00100100 &
+#14
+0!
+#15
+1!
+b11000101 #
+#16
+0!
+#17
+1!
+b11100101 #
+1%
+b010010 $
+#18
+0!
+#19
+1!
+b10001111 #
+0%
+b001101 $
+b00001001 &
+#20
+0!
+#21
+1!
+b11001110 #
+b001100 $
+b00111101 &
+#22
+0!
+#23
+1!
+b11000101 #
+b010010 $
+b11100101 &
+#24
+0!
+#25
+1!
+b10111101 #
+1%
+b100101 $
+#26
+0!
+#27
+1!
+b01100011 #
+0%
+b000001 $
+b00100100 &
+#28
+0!
+#29
+1!
+b10000000 #
+b001100 $
+b00111101 &
+#30
+0!
+#31
+1!
+b10101010 #
+1%
+b010110 $
+#32
+0!
+#33
+1!
+b00010011 #
+b010011 $
+#34
+0!
+#35
+1!
+b01101011 #
+b000010 $
+#36
+0!
+#37
+1!
+b10101110 #
+b001111 $
+#38
+0!
+#39
+1!
+b00100011 #
+0%
+b010110 $
+b10101010 &
+#40
+0!
+#41
+1!
+b11001010 #
+b010010 $
+b11100101 &
+#42
+0!
+#43
+1!
+b11110010 #
+b100101 $
+b10111101 &
+#44
+0!
+#45
+1!
