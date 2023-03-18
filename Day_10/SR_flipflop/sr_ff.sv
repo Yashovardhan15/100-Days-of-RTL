@@ -15,6 +15,6 @@ module sr_ff(
     endcase   
   end
   
-  assign qbar = ~q;   
+  assign qbar = (q === 1'hz)? 1'hz: ~q;   
   
 endmodule
