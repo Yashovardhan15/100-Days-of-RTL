@@ -62,8 +62,7 @@ module single_port_ram_tb;
         addr = q1[0];
       end else begin
         addr = $random();
-      end
-         
+      end   
       if(enable) begin
         q1.push_back(addr); 
       end
