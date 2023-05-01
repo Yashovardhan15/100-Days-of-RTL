@@ -1,4 +1,4 @@
-module single_port_ram_tb;
+module dual_port_ram_tb;
   parameter DATA_WIDTH = 8;
   parameter ADDR_WIDTH = 6;
   logic clk;
@@ -17,7 +17,7 @@ module single_port_ram_tb;
   logic [DATA_WIDTH-1 : 0] queue1[$];
   
   
-  single_port_ram single_port_ram_inst(.*);
+  dual_port_ram dual_port_ram_inst(.*);
   
   function void compare(input logic clk, input logic rst, input logic [DATA_WIDTH-1 : 0] data1, input logic [DATA_WIDTH-1 : 0] data2, input logic [ADDR_WIDTH-1 : 0] addr1, input logic [ADDR_WIDTH-1 : 0] addr2, input logic enable1, input logic enable2, input logic [DATA_WIDTH-1 : 0] q1, input logic [DATA_WIDTH-1 : 0] q2, input logic [DATA_WIDTH-1 : 0] q_e1, input logic [DATA_WIDTH-1 : 0] q_e2);
     
